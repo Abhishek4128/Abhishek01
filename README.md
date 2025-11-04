@@ -37,7 +37,7 @@ Q2.Difference between remove and discard? remove()-Attempts to remove the specif
 
 Q3.What is the purpose of the symbol :: in sets? In Python,:: is part of extended slice syntax for sequences like lists, tuples, and strings. It appears as start:stop:step ex:my_list=[0,1,2,3,4,5,6] print my_list[::3] it gives the output 0,3,6.
 
-(25-08-2025) 
+(25-08-2025)
 
 Q1.Check whether tuple is mutable or not? In Python, a tuple is immutable that is once created you cannot change, add, or remove its elements it is mainly used for the files which should not be modified.
 
