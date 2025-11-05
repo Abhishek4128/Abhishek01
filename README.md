@@ -22,3 +22,25 @@ Q3.How many types of range functions are there to use in loops? range(stop):with
 Q1.Difference between break and continue statements? Break:break terminates the program according to the condition ex:for i in range(1,15) if we give the condition if i==5 then break then the output will be 1,2,3,4. Continue:continue only skips the value given in the condition and print the remaining as same ex:for i in range(1,7) if the condition is if i==3 then itb gives the output 1,2,4,5,6.
 
 Q2.Explore about %d,%f,%s,%t,/n? %d used for the digit values,%s used for string values,%t used for tab values,/n is used for new line or next line,%f used for floating point numbers.
+
+(18-08-2025) 
+
+Q1.Explore about http and https? HTTP:http stands for hypertext transfer protocol,HTTP transmits data in plaintext, meaning that anyone monitoring the connection like on public Wi-Fi can intercept and read messages, including sensitive information. HTTPS:https stands for HyperText Transfer Protocol Secure. it’s simply http layered over TLS (Transport Layer Security), sometimes referred to as SSL, its older counterpart it is very safe.
+
+Q2.Find how does a search engine works? Search engines use automated bots (crawlers or spiders) to scan the web and discover new or updated content, which they then index into a massive searchable database. When you enter a query, the engine quickly searches this index and uses ranking algorithms to return the most relevant results based on relevance, quality, and other factors.
+
+(19-08-2025) 
+
+Q1.What is the difference between list and set? LIST:Insertion order-preserved Duplicates-allowed Mutable-yes Set:Insertion order-not preserved Duplicates-not allowed Mutable-yes But Sets can only contain hashable (immutable) elements like numbers, strings, or tuples,they cannot include unhashable types like lists or dictionaries.
+
+Q2.Difference between remove and discard? remove()-Attempts to remove the specified element from the set. If the element does not exist, it raises a Keyerror. discard()-Attempts to remove the specified element from the set. If the element does not exist, it does nothing no error is thrown.
+
+Q3.What is the purpose of the symbol :: in sets? In Python,:: is part of extended slice syntax for sequences like lists, tuples, and strings. It appears as start:stop:step ex:my_list=[0,1,2,3,4,5,6] print my_list[::3] it gives the output 0,3,6.
+
+(25-08-2025)
+
+Q1.Check whether tuple is mutable or not? In Python, a tuple is immutable that is once created you cannot change, add, or remove its elements it is mainly used for the files which should not be modified.
+
+(26-08-2025) 
+
+Q1.Understand about RAG? Retrieval-Augmented Generation (RAG) is a method where a language model (LLM) enhances its responses by pulling in information from external sources—like documents, databases, or websites right before generating an answer,it is used in chatgpt and others to increase the real time knowledge.
