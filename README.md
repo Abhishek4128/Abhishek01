@@ -12,9 +12,13 @@ ipconfig:displays the computer's ip configuration
 Q2.Give 5 features of python. 
 
 ->easy to learn and readable syntax 
+
 ->interpreted and dynamically typed 
+
 ->high level language 
-->portable 
+
+->portable
+
 ->free and open source
 
 
@@ -27,7 +31,9 @@ No, Python does not have a separate char (character) data type. Instead, any sin
 
 Q1.Difference between compiler and interpreter? 
 
-compiler-A compiler is a program that translates the entire source code (written in a high-level language) into machine code in one go, before execution. interpreter-An interpreter processes the source code line by line and executes it immediately without producing a separate executable file. Some interpreters convert source code to an intermediate form (like bytecode) and execute that.
+compiler-A compiler is a program that translates the entire source code (written in a high-level language) into machine code in one go, before execution. 
+
+interpreter-An interpreter processes the source code line by line and executes it immediately without producing a separate executable file. Some interpreters convert source code to an intermediate form (like bytecode) and execute that.
 
 Q2.Difference Between = and ==? 
 
@@ -42,6 +48,7 @@ range(stop):with a single argument it starts from 0 till not including stop befo
 Q1.Difference between break and continue statements? 
 
 Break:break terminates the program according to the condition ex:for i in range(1,15) if we give the condition if i==5 then break then the output will be 1,2,3,4. 
+
 Continue:continue only skips the value given in the condition and print the remaining as same ex:for i in range(1,7) if the condition is if i==3 then itb gives the output 1,2,4,5,6.
 
 Q2.Explore about %d,%f,%s,%t,/n? 
@@ -53,6 +60,7 @@ Q2.Explore about %d,%f,%s,%t,/n?
 Q1.Explore about http and https? 
 
 HTTP:http stands for hypertext transfer protocol,HTTP transmits data in plaintext, meaning that anyone monitoring the connection like on public Wi-Fi can intercept and read messages, including sensitive information. 
+
 HTTPS:https stands for HyperText Transfer Protocol Secure. it’s simply http layered over TLS (Transport Layer Security), sometimes referred to as SSL, its older counterpart it is very safe.
 
 Q2.Find how does a search engine works? 
@@ -63,11 +71,13 @@ Search engines use automated bots (crawlers or spiders) to scan the web and disc
 
 Q1.What is the difference between list and set? 
 
-LIST:Insertion order-preserved Duplicates-allowed Mutable-yes Set:Insertion order-not preserved Duplicates-not allowed Mutable-yes But Sets can only contain hashable (immutable) elements like numbers, strings, or tuples,they cannot include unhashable types like lists or dictionaries.
+LIST:Insertion order-preserved Duplicates-allowed Mutable-yes 
+Set:Insertion order-not preserved Duplicates-not allowed Mutable-yes But Sets can only contain hashable (immutable) elements like numbers, strings, or tuples,they cannot include unhashable types like lists or dictionaries.
 
 Q2.Difference between remove and discard? 
 
-remove()-Attempts to remove the specified element from the set. If the element does not exist, it raises a Keyerror. discard()-Attempts to remove the specified element from the set. If the element does not exist, it does nothing no error is thrown.
+remove()-Attempts to remove the specified element from the set. If the element does not exist, it raises a Keyerror. 
+discard()-Attempts to remove the specified element from the set. If the element does not exist, it does nothing no error is thrown.
 
 Q3.What is the purpose of the symbol :: in sets? 
 
